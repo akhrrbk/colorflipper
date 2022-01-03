@@ -11,9 +11,18 @@
         a{
             margin-left: 10%;
         }
-        button{
+        /* button{
             margin-top: 10%;
             margin-left: 47%;
+        } */
+        main {
+            min-height: calc(100vh - 3rem);
+            display: grid;
+            place-items: center;
+}
+        #mycontainerr{
+            text-align: center;
+            padding-top: 10%;
         }
         /* I automated this with js */
         /* p{
@@ -23,13 +32,13 @@
     </style>
 </head>
 <body>
-    <div>
         <nav class="navbar navbar-light bg-dark">
             <a href="" class="navar-brand">Color Flipper</a>
         </nav>
-    
+    <div id="mycontainerr">
         <button type="button" class="btn btn-primary" id="changecolorbutton">Change Color</button> 
         <p id="displaycolorcode"></p>
+    </div>
 
     </body>
 <script src="colorflipper.js"></script>
