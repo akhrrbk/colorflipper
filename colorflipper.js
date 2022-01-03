@@ -15,4 +15,5 @@ button.addEventListener('click', () => {
     console.log(p2)
     p.style.paddingLeft = `${p1}%`;
     p.style.paddingTop = `${p2}%`;
+    p.style.color = 'black'
 })
